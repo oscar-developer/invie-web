@@ -1,49 +1,44 @@
-/*tipo de selector{
-	propiedad: valor;
-	propiedad2 : valor;
-}
-*/
-
-/*selector universal*/
-* {
-	border: 1px solid red;
-	margin: 10px;
+/*font-family: 'Allerta', sans-serif;*/
+body{
+	font-family: 'Allerta', sans-serif;
 }
 
-/*selector de etiqueta*/
-header{
-	background: blue;
-}
 
-section{
-	background: purple;
-}
 
-/*selector descendente*/
-article h3{
-	color: green;
-}
-
-/*selectores de clase*/
-.title-a{
-	background: yellow;
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
 
 }
+.tilte-a{
+	font-size: 24px;
+}
+
 .title-b{
-	background: salmon;
+	font-size: 50px;
+}
+.guitarras{
+	color: #1F313C;
 }
 
-/*selector de ID*/
-#header{
-	border: 3px solid black;
-}
-#portada{
-	border: 3px solid orange;	
-}
-#guitarras{
-	border: 3px solid brown;	
+.guitarras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;	
 }
 
-/*body{
-	background: peru;
-}*/
+.portada{
+	background-image: url('../images/background.png');
+	/*background: rgba(12,34,45,0.75);*/
+	color: white;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+}
+.menu li {
+	display: inline-block;
+}
+.logotipo{
+	display: inline-block;	
+}
