@@ -26,7 +26,13 @@ body{
 	margin:0;
 }
 
-
+button{
+	border-radius: 5px;
+	border: none; 
+	background: #fd324e;
+	color: white;
+	padding:8px;
+}
 
 .titulo{
 	font-family: 'Montserrat', sans-serif;
@@ -92,6 +98,8 @@ body{
 	padding:10px;
 	/*overflow: hidden;*/
 	border: 1px solid #1F313C; 
+	/*border-radius: 8px;*/
+	border-radius: 8px 50px 0px 50px;
 }
 .guitarra ol {
 	padding: 0;
